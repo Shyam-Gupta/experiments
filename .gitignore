@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/NetFramework/NetFxSdk/obj
+/NetFramework/NetFxSdk/bin/Debug/net48
+/NetFramework/NetFxSdk/.vs/ProjectEvaluation
+/NetFramework/NetFxSdk/.vs/NetFxSdk/v17
+/NetFramework/NetFxSdk/.vs/NetFxSdk/v16
+/NetFramework/NetFxSdk/.vs/NetFxSdk/FileContentIndex
+/NetFramework/NetFxSdk/.vs/NetFxSdk/DesignTimeBuild
