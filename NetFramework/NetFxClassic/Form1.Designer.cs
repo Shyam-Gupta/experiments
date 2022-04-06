@@ -31,6 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.userControl11 = new WindowsFormsControlLibrary1.UserControl1();
             this.SuspendLayout();
             // 
             // button1
@@ -59,11 +60,19 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "linkLabel1";
             // 
+            // userControl11
+            // 
+            this.userControl11.Location = new System.Drawing.Point(276, 59);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(297, 307);
+            this.userControl11.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(585, 361);
+            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
@@ -79,6 +88,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private WindowsFormsControlLibrary1.UserControl1 userControl11;
     }
 }
 
