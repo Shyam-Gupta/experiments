@@ -8,3 +8,5 @@
 /NetFramework/NetFxSdk/.vs/NetFxSdk/v17
 /NetFramework/NetFxSdk/.vs
 /NetFramework/NetFxSdk/bin/Release/net48
+/NetCore/WF_NC/obj
+/NetCore/WF_NC/.vs/WF_NC/v17
