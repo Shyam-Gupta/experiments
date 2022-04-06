@@ -10,3 +10,7 @@
 /NetFramework/NetFxSdk/bin/Release/net48
 /NetCore/WF_NC/obj
 /NetCore/WF_NC/.vs/WF_NC/v17
+/NetCore/WF_NC/.vs
+/NetFramework/NetFxClassic/obj/Debug
+/NetFramework/NetFxClassic/.vs/NetFxClassic/v17
+/NetFramework/NetFxClassic/.vs/NetFxClassic/FileContentIndex
