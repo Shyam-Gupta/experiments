@@ -18,3 +18,8 @@
 /NetFramework/WindowsFormsControlLibrary1/obj/Debug
 /NetFramework/NetFxClassic/bin/Debug
 /NetFramework/WindowsFormsControlLibrary1/bin/Debug
+/NetFramework/WpfControlLibrary1/obj/Debug
+*.suo
+/.vs
+/NetFramework/WpfControlLibrary1/bin/Debug
+/NetCore/WF_NC/bin/Debug/net6.0-windows

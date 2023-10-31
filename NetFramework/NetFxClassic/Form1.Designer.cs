@@ -28,67 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.userControl11 = new WindowsFormsControlLibrary1.UserControl1();
+            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
             this.SuspendLayout();
             // 
-            // button1
+            // elementHost1
             // 
-            this.button1.Location = new System.Drawing.Point(360, 199);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(55, 281);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 29);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(133, 146);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(100, 25);
-            this.linkLabel1.TabIndex = 2;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "linkLabel1";
-            // 
-            // userControl11
-            // 
-            this.userControl11.Location = new System.Drawing.Point(276, 59);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(297, 307);
-            this.userControl11.TabIndex = 3;
+            this.elementHost1.Location = new System.Drawing.Point(284, 80);
+            this.elementHost1.Name = "elementHost1";
+            this.elementHost1.Size = new System.Drawing.Size(450, 302);
+            this.elementHost1.TabIndex = 0;
+            this.elementHost1.Text = "elementHost1";
+            this.elementHost1.Child = null;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(585, 361);
-            this.Controls.Add(this.userControl11);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1089, 430);
+            this.Controls.Add(this.elementHost1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private WindowsFormsControlLibrary1.UserControl1 userControl11;
+        private System.Windows.Forms.Integration.ElementHost elementHost1;
     }
 }
 
